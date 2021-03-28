@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+const name = 'somebody';
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with {name}
         </a>
       </header>
     </div>
